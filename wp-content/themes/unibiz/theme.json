@@ -1,0 +1,496 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"customTemplates": [
+		{
+			"name": "page-no-sidebar",
+			"postTypes": [
+				"post",
+				"page"
+			],
+			"title": "Страница без боковой панели"
+		},
+		{
+			"name": "blank-canvas",
+			"postTypes": [
+				"post",
+				"page"
+			],
+			"title": "Пустой холст"
+		},
+		{
+			"name": "page-with-sidebar",
+			"postTypes": [
+				"post",
+				"page"
+			],
+			"title": "Страница с боковой панелью"
+		},
+		{
+			"name": "index",
+			"title": "Index"
+		},
+		{
+			"name": "archive",
+			"title": "Archive"
+		},
+		{
+			"name": "search",
+			"title": "Search"
+		},
+		{
+			"name": "page",
+			"title": "Page"
+		},
+		{
+			"name": "single",
+			"title": "Single"
+		},
+		{
+			"name": "404",
+			"title": "404"
+		},
+		{
+			"name": "page-no-sidebar",
+			"title": "Page No Sidebar"
+		},
+		{
+			"name": "home",
+			"title": "Home"
+		},
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas"
+		},
+		{
+			"name": "page-with-sidebar",
+			"title": "Page With Sidebar"
+		},
+		{
+			"name": "template-basic",
+			"title": "Template Basic"
+		}
+	],
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"gradients": [],
+			"palette": [
+				{
+					"color": "#7722ff",
+					"name": "Основной",
+					"slug": "gv-color-primary"
+				},
+				{
+					"color": "#5d16da",
+					"name": "Вторичный",
+					"slug": "gv-color-secondary"
+				},
+				{
+					"color": "#011222",
+					"name": "Основной текст",
+					"slug": "gv-color-text-primary"
+				},
+				{
+					"color": "#01122299",
+					"name": "Вторичный текст",
+					"slug": "gv-color-text-secondary"
+				},
+				{
+					"color": "#01122266",
+					"name": "Текст-заполнитель",
+					"slug": "gv-color-text-placeholder"
+				},
+				{
+					"color": "#7722ff",
+					"name": "Акцент",
+					"slug": "gv-color-accent"
+				},
+				{
+					"color": "#5d16da",
+					"name": "Акцент при наведении",
+					"slug": "gv-color-accent-hover"
+				},
+				{
+					"color": "#011222",
+					"name": "Первичный фон",
+					"slug": "gv-color-background-primary"
+				},
+				{
+					"color": "#f7f4ff",
+					"name": "Вторичный фон",
+					"slug": "gv-color-background-secondary"
+				},
+				{
+					"color": "#f1e9ff",
+					"name": "Третичный фон",
+					"slug": "gv-color-background-tertiary"
+				},
+				{
+					"color": "#e4eaf4",
+					"name": "Рамка",
+					"slug": "gv-color-border"
+				},
+				{
+					"color": "#f7f9fc",
+					"name": "Граница поля ввода",
+					"slug": "gv-color-border-input"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Белый",
+					"slug": "gv-color-white"
+				},
+				{
+					"color": "#7722ff",
+					"name": "Темный основной",
+					"slug": "gv-color-dark-primary"
+				},
+				{
+					"color": "#5d16da",
+					"name": "Темный вторичный",
+					"slug": "gv-color-dark-secondary"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Темный основной текст",
+					"slug": "gv-color-dark-text-primary"
+				},
+				{
+					"color": "#ffffff99",
+					"name": "Темный вторичный текст",
+					"slug": "gv-color-dark-text-secondary"
+				},
+				{
+					"color": "#ffffff66",
+					"name": "Темный текст-заполнитель",
+					"slug": "gv-color-dark-text-placeholder"
+				},
+				{
+					"color": "#7722ff",
+					"name": "Темный акцент",
+					"slug": "gv-color-dark-accent"
+				},
+				{
+					"color": "#5d16da",
+					"name": "Темный акцент при наведении",
+					"slug": "gv-color-dark-accent-hover"
+				},
+				{
+					"color": "#011222",
+					"name": "Темный основной фон",
+					"slug": "gv-color-dark-background-primary"
+				},
+				{
+					"color": "#0b1b2b",
+					"name": "Темный вторичный фон",
+					"slug": "gv-color-dark-background-secondary"
+				},
+				{
+					"color": "#1a2a38",
+					"name": "Темный третичный фон",
+					"slug": "gv-color-dark-background-tertiary"
+				},
+				{
+					"color": "#ffffff26",
+					"name": "Темная граница",
+					"slug": "gv-color-dark-border"
+				},
+				{
+					"color": "#1f2d3c",
+					"name": "Темная граница поля ввода",
+					"slug": "gv-color-dark-border-input"
+				},
+				{
+					"color": "#000000",
+					"name": "Черный",
+					"slug": "gv-color-black"
+				},
+				{
+					"color": "#00ff88",
+					"id": "t-p-8-zi-c",
+					"key": "t-p-8-zi-c",
+					"name": "Variable Color #1",
+					"slug": "t-p-8-zi-c"
+				},
+				{
+					"color": "#00ff886b",
+					"id": "d-nw-zc-s",
+					"key": "d-nw-zc-s",
+					"name": "Variable Color #2",
+					"slug": "d-nw-zc-s"
+				},
+				{
+					"color": "#9b1bb1",
+					"name": "Цвет 1",
+					"slug": "custom-color-1"
+				},
+				{
+					"color": "#9b1bb1cc",
+					"name": "Цвет 2",
+					"slug": "custom-color-2"
+				},
+				{
+					"color": "#3b184f",
+					"name": "Цвет 3",
+					"slug": "custom-color-3"
+				},
+				{
+					"color": "#652c5d",
+					"name": "Цвет 4",
+					"slug": "custom-color-4"
+				}
+			]
+		},
+		"custom": {
+			"headings": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--primary)"
+				}
+			}
+		},
+		"layout": {
+			"contentSize": "100vw",
+			"wideSize": "100vw"
+		},
+		"spacing": {
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-Light.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-Regular.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-Medium.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-SemiBold.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-Bold.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-ExtraBold.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-LightItalic.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-Italic.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-MediumItalic.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-SemiBoldItalic.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-BoldItalic.ttf"
+						},
+						{
+							"fontFamily": "Host Grotesk",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": "file:./assets/fonts/host-grotesk/HostGrotesk-ExtraBoldItalic.ttf"
+						}
+					],
+					"fontFamily": "Host Grotesk",
+					"name": "Host Grotesk",
+					"slug": "host-grotesk"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": {
+						"max": "1rem",
+						"min": "0.875rem"
+					},
+					"name": "Маленький",
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.125rem",
+						"min": "1rem"
+					},
+					"name": "Средний",
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.875rem",
+						"min": "1.75rem"
+					},
+					"name": "Большой",
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"fluid": false,
+					"name": "Очень большой",
+					"size": "2.25rem",
+					"slug": "extra-large"
+				},
+				{
+					"name": "Массивный",
+					"size": "clamp(160px, 13.889vw, 200px)",
+					"slug": "massive"
+				},
+				{
+					"name": "Гигантский",
+					"size": "clamp(48px, 5vw, 72px)",
+					"slug": "gigantic"
+				},
+				{
+					"name": "Мега",
+					"size": "clamp(40px, 3.611vw, 52px)",
+					"slug": "mega"
+				},
+				{
+					"name": "Джамбо",
+					"size": "clamp(32px, 3.333vw, 48px)",
+					"slug": "jumbo"
+				},
+				{
+					"name": "Самый большой",
+					"size": "clamp(26px, 2.222vw, 32px)",
+					"slug": "largest"
+				},
+				{
+					"name": "Крупный",
+					"size": "clamp(22px, 1.805vw, 26px)",
+					"slug": "big"
+				},
+				{
+					"name": "Стандартный",
+					"size": "clamp(20px, 1.666vw, 24px)",
+					"slug": "standard"
+				},
+				{
+					"name": "Обычный",
+					"size": "clamp(16px, 1.25vw, 18px)",
+					"slug": "normal"
+				},
+				{
+					"name": "Крошечный",
+					"size": "clamp(14px, 1.111vw, 16px)",
+					"slug": "tiny"
+				},
+				{
+					"name": "Немного",
+					"size": "clamp(12, 1.228vw, 14px)",
+					"slug": "little"
+				},
+				{
+					"name": "Мини",
+					"size": "clamp(12px, 1.05vw, 12px)",
+					"slug": "mini"
+				},
+				{
+					"name": "Огромный",
+					"size": "clamp(48px, 4.166vw, 60px)",
+					"slug": "huge"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/post-content": {
+				"spacing": {
+					"margin": {
+						"top": "0px"
+					}
+				}
+			}
+		},
+		"color": {
+			"text": "var(--wp--preset--color--gv-color-text-secondary)"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--gv-color-primary)",
+					"text": "var(--wp--preset--color--white)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--gv-color-text-primary)"
+				}
+			},
+			"link": {
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--gv-color-secondary)"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--gv-color-primary)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "1.2rem"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 3
+}
